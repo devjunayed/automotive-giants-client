@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    background-color: blueviolet !important;
+    color: white !important;
+}
+ul a:hover{
+    color: white !important;
+    background-color: blueviolet !important;
+}
