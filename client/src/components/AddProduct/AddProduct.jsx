@@ -101,6 +101,7 @@ const AddProduct = () => {
                                     onChange={handleBrandChange}
                                     value={selectedBrand}
                                 >
+                                    <option value="Lamborghini">Lamborghini</option>
                                     <option value="Tesla">Tesla</option>
                                     <option value="Mercedes">Mercedes</option>
                                     <option value="Ford">Ford</option>
