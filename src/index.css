@@ -9,7 +9,20 @@
     background-color: blueviolet !important;
     color: white !important;
 }
-ul a:hover{
+
+.smallmenu a{
+    border-radius: 5px;
+
+    display: block;
+    padding: 6px 10px ;
+    width: 100% !important;
+}
+
+.smallmenu .active {
+    
+    background-color: blueviolet !important;
+}
+ul >li> a:hover{
     color: white !important;
     background-color: blueviolet !important;
 }
